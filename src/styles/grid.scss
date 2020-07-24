@@ -4,7 +4,7 @@ $col-prefix: '#{$prefix}-col';
 $flex-row-prefix: '#{$row-prefix}-flex';
 $flex-justifies: ('start', 'end', 'center', 'space-around', 'space-between');
 $flex-aligns: ('top':'flex-start', 'middle':'center', 'bottom':'flex-end');
-$grid-col: 24;
+$grid-col: 12;
 @mixin generate-row {
   #{$row-prefix} {
     display: block;
