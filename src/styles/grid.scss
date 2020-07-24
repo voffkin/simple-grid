@@ -96,6 +96,9 @@ $grid-col: 24;
   @include generate-grid('-lg');
 }
 
+@media (min-width: 1440px) {
+  @include generate-grid('-xl');
+}
 
 
 

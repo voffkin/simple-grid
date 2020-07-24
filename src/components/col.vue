@@ -17,6 +17,7 @@
       sm: {},
       md: {},
       lg: {},
+      xl: {},
       className: {}
     },
     data() {
@@ -34,7 +35,7 @@
     computed: {
       colClassList() {
         let list = [COL_PREFIX];
-        let viewports = ['', 'xs', 'sm', 'md', 'lg'];
+        let viewports = ['', 'xs', 'sm', 'md', 'lg', 'xl'];
         viewports.forEach(viewport => {
           let vpName = viewport ? `-${viewport}` : viewport;
           if (typeof this[viewport] === 'object') {

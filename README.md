@@ -47,6 +47,7 @@ due to conflict,use script, you need change <col><col/> to <i-col><i-col/>。
 | sm | >768px can be a span value or an object containing props | Number or Object |  |
 | md | ≥992px can be a span value or an object containing props | Number or Object |  |
 | lg | ≥1200px can be a span value or an object containing props | Number or Object |  |
+| xl | ≥1440px can be a span value or an object containing props | Number or Object |  |
 ## examples
 [see live demo](https://jsfiddle.net/anthinkingcoder/04phqm6L)
 ```html
